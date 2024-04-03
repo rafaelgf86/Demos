@@ -1,0 +1,8 @@
+# Usar el siguiente comando para validar la conexión al WS
+curl -i -X POST -d "{ \"username\": \"admin\", \"password\": \"admin@123\"}" http://localhost:8080/IntxProser/login
+
+
+# NOOOOOOOOOTA
+En curl no pude obtener los usuarios enviando el token, pero en POSTMAN si. Ver Imágenes
+
+
